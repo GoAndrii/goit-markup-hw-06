@@ -579,7 +579,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  color: var(--accent-color);
 }
 
-.button-icon{
+.button-footer{
   font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -593,6 +593,21 @@ height: 50px;
 background-color: var(--accent-color);
 border-radius: 4px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding-left: 29px;
+border: none;
+}
+
+.button-footer:hover,
+.button-footer:focus{
+  background-color: var(--button-color);
+}
+
+.footer-form{
+  display: flex;
+}
+
+.footer-icon{
+  margin-left: 10px;
 }
 
 
