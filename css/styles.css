@@ -834,12 +834,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
 }
 
-.policy__checkbox:checked + .policy__icon {
+.policy__checkbox:checked + .policy .policy__icon {
   background-color: var(--accent-color);
   border-color: transparent;
 }
 
-.policy__checkbox:focus + .policy__icon {
+.policy__checkbox:focus + .policy .policy__icon {
   border-color: var(--accent-color);
   }
 
