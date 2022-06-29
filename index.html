@@ -475,17 +475,18 @@
           <label for="comment"><span class="form-text">Комментарий</span></label>
             <textarea id="comment" name="user-commentary" placeholder="Введите текст" class="modal-input-coment"></textarea>
           </div>
-        </form>
         <div class="modal-block">
-          <input type="checkbox" name="privacy" class="modal-privacy is-hidden" value="true" id="user-check">
-            <label class="text-document" for="user-check"><span>
-              <svg class="ckeck-icon" width="11" height="8">
-              <use href="./images/icons.svg#icon-Vector-4"></use>
+            <input class="policy__checkbox" type="checkbox" name="policy" id="policy" required value="policy">
+            <label class="policy" for="policy">
+            <svg class="policy__icon" width="16" height="15">
+              <use href="./images/icons.svg#icon-check"></use>
             </svg>
-            </span>Соглашаюсь с рассылкой и принимаю <a class="check-link" href=""> Условия договора</a></label>
-          </div>
-          <button type="submit" class="modal-button">Отправить</button>
+            <span>Соглашаюсь с рассылкой и принимаю
+              <a href="" class="policy__link">Условия договора</a>
+            </span></label>
       </div>
+      <button type="submit" class="modal-button">Отправить</button>
+      </form>
     </div>
     <script src="./js/modal.js"></script>
   </body>
